@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    background-color:grey;
+}
+#h2{
+	color:white;
+	text-align:center;
+	background-color:darkred;
+	padding:5px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px red;
+}
+
+table {
+	width:100%;
+	color:white;
+	border:1px solid color-form-highlight;
+}
+
+table th {
+	display:flex;
+	width:100%;
+	background:#000;
+	color:white;
+	padding:5px;
+}
+
+table tr{
+	color:white;
+	display:flex;
+	width:100%;
+	padding:0;
+
+}
+
+table td{
+	color:white;
+	display:flex;
+	width:100%;
+	padding:2px;
+}
+
+nav img{
+	width:200px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-form {
+    position: absolute;
+    width: 440px;
+    height: 437px;
+    left: 480px;
+    top: 209px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.1);
+    border-radius:2em;
+}
+a{
+	font-size:20px;
+	
+}
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 35px;
+}
+
+.login-form form label,
+.login-form form input {
+    margin: 5px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 43px;
+    background-color:darkred;
+    color:white;
+    padding:5px;
+    padding-left:100px;
+     padding-right:100px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.login-form input {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 370px;
+    height: 43px;
+}
+
+.button {
+    width: 155px;
+    height: 50px;
+    background:blue;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.button1 {
+    width: 100px;
+    height: 30px;
+    background:blue;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.signup-form {
+    position: absolute;
+    width: 440px;
+    height: 500px;
+    left: 480px;
+    top: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.1);
+    border-radius:2em;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 35px;
+}
+
+.signup-form form label,
+.signup-form form input {
+    margin: 5px;
+}
+
+.signup-form input {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 370px;
+    height: 43px;
+}
+
+.register-form{
+    position: absolute;
+    width: 500px;
+    height: 800px;
+    left: 450px;
+    top: 209px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.1);
+    border-radius:2em;
+}
+.register-form input {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 370px;
+    height: 43px;
+}
+.register-form select {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 370px;
+    height: 43px;
+    margin-left:5px;
+}
+.gender input{
+	width: 15px;
+    height: 15px;
+}
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 35px;
+}
+
+.register-form form label,
+.register-form form input {
+    margin: 5px;
+}
